@@ -31,6 +31,7 @@ export const CheckboxContent = styled.div<CheckboxProps>`
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 
   svg {
     visibility: ${(props) => (props.checked ? 'visible' : 'hidden')};
