@@ -15,8 +15,8 @@ Simple project that logs tasks and completes them.
 ```
 ## Pictures
 
-![web1](https://user-images.githubusercontent.com/69018143/213161266-5a919e1f-72fc-4692-bc8d-0f857b2ef62d.png)
+![web1](https://user-images.githubusercontent.com/69018143/213166009-60d4abd6-46f3-4e23-9c41-e3a86f1b560b.png)
 
-![web2](https://user-images.githubusercontent.com/69018143/213161381-c5ebb639-fdd8-4140-a8a9-b24b8c8918c7.png)
+![web2](https://user-images.githubusercontent.com/69018143/213166073-ff1b001e-1bcd-438b-9130-eb7640173cf7.png)
 
-![web3](https://user-images.githubusercontent.com/69018143/213161435-f65c7f89-017e-4be1-8ba1-0ba2dc399b7c.png)
+![web3](https://user-images.githubusercontent.com/69018143/213166115-9cb2152a-d5d0-4d58-887c-0edd8ee9aa59.png)
