@@ -109,6 +109,9 @@ export const Qty = styled.span`
   color: ${(props) => props.theme['gray-200']};
   font-weight: 700;
   font-size: 0.75rem;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
 `
 
 export const Text = styled.span<ITaskProps>`
@@ -133,4 +136,11 @@ export const TaskText = styled.span<ITaskProps>`
 
 export const FormError = styled.span`
   color: ${(props) => props.theme.danger};
+`
+
+export const QtyRounded = styled.span`
+  background-color: ${(props) => props.theme['gray-500']};
+  font-size: 14px;
+  padding: 2px 8px;
+  border-radius: 8px;
 `
