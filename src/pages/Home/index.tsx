@@ -19,6 +19,7 @@ import {
   Text,
   Qty,
   FormError,
+  QtyRounded,
 } from './styles'
 
 const createTaskSchema = z.object({
@@ -95,11 +96,15 @@ const Home = () => {
           <TaskQtyInfo>
             <div>
               <Text colorByText="tasksCreated">Tarefas criadas</Text>
-              <Qty>{qtyCreated}</Qty>
+              <QtyRounded>
+                <Qty>{qtyCreated}</Qty>
+              </QtyRounded>
             </div>
             <div>
               <Text colorByText="tasksCompleted">Concluídas</Text>
-              <Qty>{qtyCompleted}</Qty>
+              <QtyRounded>
+                <Qty>{qtyCompleted}</Qty>
+              </QtyRounded>
             </div>
           </TaskQtyInfo>
           {tasks.map((task) => (
