@@ -19,6 +19,12 @@ export const Form = styled.form`
   top: 172px;
   flex-direction: row;
   display: flex;
+
+  @media (max-width: 752px) {
+    width: 100%;
+    left: 0;
+    padding: 0 16px;
+  }
 `
 
 export const Input = styled.input`
@@ -59,6 +65,12 @@ export const TaskContainer = styled.div`
   position: absolute;
   left: calc(50% - 730px / 2 + 17px);
   top: 300px;
+
+  @media (max-width: 752px) {
+    width: 100%;
+    left: 0;
+    padding: 0 16px;
+  }
 `
 
 export const TaskQtyInfo = styled.div`
